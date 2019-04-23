@@ -9,4 +9,4 @@ I would like to print a list of bookmarks.
 
 ## Domain Model
 
-  ![Domain Model](domain_model.png)
+  ![Domain Model](https://github.com/Hannah-Frost/bookmark-manager/blob/master/images/domain_model.png)
