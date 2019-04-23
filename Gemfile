@@ -1,6 +1,10 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem 'rake'
-gem 'sinatra'
 gem 'capybara'
+gem 'rake'
 gem 'rspec'
+gem 'rubocop'
+gem 'rubocop-performance'
+gem 'simplecov', require: false
+gem 'simplecov-console', require: false
+gem 'sinatra'
