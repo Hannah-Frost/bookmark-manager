@@ -6,10 +6,24 @@
         1,
         1,
         1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/hannahfrost/Projects/Weekly_Challenge/bookmark-manager/spec/units/bookmarks_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
         null,
         null
       ]
     },
-    "timestamp": 1556028934
+    "timestamp": 1556032994
   }
 }
