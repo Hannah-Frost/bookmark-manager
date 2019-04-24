@@ -12,18 +12,19 @@ so that I can save a website,
 I want to add the website url and name to a bookmark manager.
 ```
 
-## How to create the database
+## How to create the databases
 
   In your command line, type the following:
-  1. `psql` : opens your user database.
-  2. `CREATE DATABASE bookmark_manager;` : creates a database
-  3. `\c bookmark_manager;` : connects to the bookmark_manager database.
-  4. Access `01_create_bookmarks_table.sql` located within db/migrations/. Run the query within the file.
+  1. `psql` : open your user database.
+  2. `CREATE DATABASE bookmark_manager;` : create a database.
+  3. `CREATE DATABASE bookmark_manager_test;` : create a database for testing.
+  4. `\c bookmark_manager;` : connect to the bookmark_manager database.
+  5. Access `01_create_bookmarks_table.sql` located within db/migrations/. Run the query within both databases.
 
-## How to run app in the command line
-```
-rackup -p 2345
-```
+## How to start the server for the app
+
+  Type `rackup -p 2345` into your command line to start the server. Do CTRL+C to close the server.
+
 ## How to view the app
 
   Use the url `localhost:2345/bookmarks` to view the app.
