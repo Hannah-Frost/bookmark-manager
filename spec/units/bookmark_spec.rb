@@ -4,7 +4,9 @@ describe Bookmark do
   describe '#all' do
     it 'displays all bookmarks' do
       bookmark_list = Bookmark.all
-      expect(bookmark_list).to eq ["http://www.makersacademy.com", "http://www.twitter.com"]
+      expect(bookmark_list).to include "http://www.makersacademy.com"
+      expect(bookmark_list).to include "http://www.destroyallsoftware.com"
+      expect(bookmark_list).to include "http://www.google.com"
     end
   end
 end
