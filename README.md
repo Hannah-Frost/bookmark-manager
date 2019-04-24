@@ -6,6 +6,19 @@ As a user,
 so that I can see which bookmarks I have made,
 I would like to print a list of bookmarks.
 ```
+```shell
+As a user,
+so that I can save a website,
+I want to add the website url and name to a bookmark manager.
+```
+
+## How to create the database
+
+  In your command line, type the following:
+  1. `psql` : opens your user database.
+  2. `CREATE DATABASE bookmark_manager;` : creates a database
+  3. `\c bookmark_manager;` : connects to the bookmark_manager database.
+  4. Access the `01_create_bookmarks_table.sql` located within db/migrations/. Run the query within the file.
 
 ## Domain Model
 

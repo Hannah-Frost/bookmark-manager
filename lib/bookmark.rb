@@ -8,3 +8,6 @@ class Bookmark
     ]
   end
 end
+
+#Class methods are methods that are called on a class.
+#Instance methods are methods that are called on an instance of a class.
