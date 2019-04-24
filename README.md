@@ -26,7 +26,7 @@ rackup -p 2345
 ```
 ## How to view the app
 
-  Use the url `localhost:3000/bookmarks` to view the app.
+  Use the url `localhost:2345/bookmarks` to view the app.
 
 ## Domain Model
 
