@@ -18,7 +18,15 @@ I want to add the website url and name to a bookmark manager.
   1. `psql` : opens your user database.
   2. `CREATE DATABASE bookmark_manager;` : creates a database
   3. `\c bookmark_manager;` : connects to the bookmark_manager database.
-  4. Access the `01_create_bookmarks_table.sql` located within db/migrations/. Run the query within the file.
+  4. Access `01_create_bookmarks_table.sql` located within db/migrations/. Run the query within the file.
+
+## How to run app in the command line
+```
+rackup -p 2345
+```
+## How to view the app
+
+  Use the url `localhost:3000/bookmarks` to view the app.
 
 ## Domain Model
 
