@@ -11,6 +11,11 @@ As a user,
 so that I can save a website,
 I want to add the website url and name to a bookmark manager.
 ```
+```shell
+As a user,
+so that I can keep my manager up to date,
+I want to add new bookmarks to the manager.
+```
 
 ## How to create the databases
 
