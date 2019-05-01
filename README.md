@@ -1,5 +1,7 @@
 # Bookmark Manager #
 
+  This app creates a bookmark storage/managing system where a user can add, remove, and view bookmarks in a set location. It uses Ruby, HTML, and SQL databases with assistance from Capybara, Rspec, and Sinatra.
+
 ## What criteria should this program satisfy?
 ```shell
 As a user,
